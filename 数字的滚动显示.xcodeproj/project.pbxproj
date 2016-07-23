@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16DAC4321D2B3C7600EA7641 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC4311D2B3C7600EA7641 /* main.m */; };
+		16DAC4351D2B3C7600EA7641 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC4341D2B3C7600EA7641 /* AppDelegate.m */; };
+		16DAC4381D2B3C7600EA7641 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC4371D2B3C7600EA7641 /* ViewController.m */; };
+		16DAC43B1D2B3C7600EA7641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DAC4391D2B3C7600EA7641 /* Main.storyboard */; };
+		16DAC43D1D2B3C7600EA7641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16DAC43C1D2B3C7600EA7641 /* Assets.xcassets */; };
+		16DAC4401D2B3C7600EA7641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16DAC43E1D2B3C7600EA7641 /* LaunchScreen.storyboard */; };
+		16DAC44B1D2B3C7600EA7641 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC44A1D2B3C7600EA7641 /* _______Tests.m */; };
+		16DAC4561D2B3C7600EA7641 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DAC4551D2B3C7600EA7641 /* _______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16DAC4471D2B3C7600EA7641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16DAC4251D2B3C7600EA7641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DAC42C1D2B3C7600EA7641;
+			remoteInfo = "数字的滚动显示";
+		};
+		16DAC4521D2B3C7600EA7641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16DAC4251D2B3C7600EA7641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16DAC42C1D2B3C7600EA7641;
+			remoteInfo = "数字的滚动显示";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16DAC42D1D2B3C7600EA7641 /* 数字的滚动显示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "数字的滚动显示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DAC4311D2B3C7600EA7641 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16DAC4331D2B3C7600EA7641 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16DAC4341D2B3C7600EA7641 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16DAC4361D2B3C7600EA7641 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16DAC4371D2B3C7600EA7641 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16DAC43A1D2B3C7600EA7641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16DAC43C1D2B3C7600EA7641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16DAC43F1D2B3C7600EA7641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16DAC4411D2B3C7600EA7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DAC4461D2B3C7600EA7641 /* 数字的滚动显示Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数字的滚动显示Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DAC44A1D2B3C7600EA7641 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		16DAC44C1D2B3C7600EA7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16DAC4511D2B3C7600EA7641 /* 数字的滚动显示UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数字的滚动显示UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16DAC4551D2B3C7600EA7641 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		16DAC4571D2B3C7600EA7641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16DAC42A1D2B3C7600EA7641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC4431D2B3C7600EA7641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC44E1D2B3C7600EA7641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16DAC4241D2B3C7600EA7641 = {
+			isa = PBXGroup;
+			children = (
+				16DAC42F1D2B3C7600EA7641 /* 数字的滚动显示 */,
+				16DAC4491D2B3C7600EA7641 /* 数字的滚动显示Tests */,
+				16DAC4541D2B3C7600EA7641 /* 数字的滚动显示UITests */,
+				16DAC42E1D2B3C7600EA7641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16DAC42E1D2B3C7600EA7641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC42D1D2B3C7600EA7641 /* 数字的滚动显示.app */,
+				16DAC4461D2B3C7600EA7641 /* 数字的滚动显示Tests.xctest */,
+				16DAC4511D2B3C7600EA7641 /* 数字的滚动显示UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16DAC42F1D2B3C7600EA7641 /* 数字的滚动显示 */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC4331D2B3C7600EA7641 /* AppDelegate.h */,
+				16DAC4341D2B3C7600EA7641 /* AppDelegate.m */,
+				16DAC4361D2B3C7600EA7641 /* ViewController.h */,
+				16DAC4371D2B3C7600EA7641 /* ViewController.m */,
+				16DAC4391D2B3C7600EA7641 /* Main.storyboard */,
+				16DAC43C1D2B3C7600EA7641 /* Assets.xcassets */,
+				16DAC43E1D2B3C7600EA7641 /* LaunchScreen.storyboard */,
+				16DAC4411D2B3C7600EA7641 /* Info.plist */,
+				16DAC4301D2B3C7600EA7641 /* Supporting Files */,
+			);
+			path = "数字的滚动显示";
+			sourceTree = "<group>";
+		};
+		16DAC4301D2B3C7600EA7641 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC4311D2B3C7600EA7641 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16DAC4491D2B3C7600EA7641 /* 数字的滚动显示Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC44A1D2B3C7600EA7641 /* _______Tests.m */,
+				16DAC44C1D2B3C7600EA7641 /* Info.plist */,
+			);
+			path = "数字的滚动显示Tests";
+			sourceTree = "<group>";
+		};
+		16DAC4541D2B3C7600EA7641 /* 数字的滚动显示UITests */ = {
+			isa = PBXGroup;
+			children = (
+				16DAC4551D2B3C7600EA7641 /* _______UITests.m */,
+				16DAC4571D2B3C7600EA7641 /* Info.plist */,
+			);
+			path = "数字的滚动显示UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16DAC42C1D2B3C7600EA7641 /* 数字的滚动显示 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DAC45A1D2B3C7600EA7641 /* Build configuration list for PBXNativeTarget "数字的滚动显示" */;
+			buildPhases = (
+				16DAC4291D2B3C7600EA7641 /* Sources */,
+				16DAC42A1D2B3C7600EA7641 /* Frameworks */,
+				16DAC42B1D2B3C7600EA7641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数字的滚动显示";
+			productName = "数字的滚动显示";
+			productReference = 16DAC42D1D2B3C7600EA7641 /* 数字的滚动显示.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16DAC4451D2B3C7600EA7641 /* 数字的滚动显示Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DAC45D1D2B3C7600EA7641 /* Build configuration list for PBXNativeTarget "数字的滚动显示Tests" */;
+			buildPhases = (
+				16DAC4421D2B3C7600EA7641 /* Sources */,
+				16DAC4431D2B3C7600EA7641 /* Frameworks */,
+				16DAC4441D2B3C7600EA7641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16DAC4481D2B3C7600EA7641 /* PBXTargetDependency */,
+			);
+			name = "数字的滚动显示Tests";
+			productName = "数字的滚动显示Tests";
+			productReference = 16DAC4461D2B3C7600EA7641 /* 数字的滚动显示Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16DAC4501D2B3C7600EA7641 /* 数字的滚动显示UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16DAC4601D2B3C7600EA7641 /* Build configuration list for PBXNativeTarget "数字的滚动显示UITests" */;
+			buildPhases = (
+				16DAC44D1D2B3C7600EA7641 /* Sources */,
+				16DAC44E1D2B3C7600EA7641 /* Frameworks */,
+				16DAC44F1D2B3C7600EA7641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16DAC4531D2B3C7600EA7641 /* PBXTargetDependency */,
+			);
+			name = "数字的滚动显示UITests";
+			productName = "数字的滚动显示UITests";
+			productReference = 16DAC4511D2B3C7600EA7641 /* 数字的滚动显示UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16DAC4251D2B3C7600EA7641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					16DAC42C1D2B3C7600EA7641 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+					};
+					16DAC4451D2B3C7600EA7641 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 16DAC42C1D2B3C7600EA7641;
+					};
+					16DAC4501D2B3C7600EA7641 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 16DAC42C1D2B3C7600EA7641;
+					};
+				};
+			};
+			buildConfigurationList = 16DAC4281D2B3C7600EA7641 /* Build configuration list for PBXProject "数字的滚动显示" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16DAC4241D2B3C7600EA7641;
+			productRefGroup = 16DAC42E1D2B3C7600EA7641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16DAC42C1D2B3C7600EA7641 /* 数字的滚动显示 */,
+				16DAC4451D2B3C7600EA7641 /* 数字的滚动显示Tests */,
+				16DAC4501D2B3C7600EA7641 /* 数字的滚动显示UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16DAC42B1D2B3C7600EA7641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC4401D2B3C7600EA7641 /* LaunchScreen.storyboard in Resources */,
+				16DAC43D1D2B3C7600EA7641 /* Assets.xcassets in Resources */,
+				16DAC43B1D2B3C7600EA7641 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC4441D2B3C7600EA7641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC44F1D2B3C7600EA7641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16DAC4291D2B3C7600EA7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC4381D2B3C7600EA7641 /* ViewController.m in Sources */,
+				16DAC4351D2B3C7600EA7641 /* AppDelegate.m in Sources */,
+				16DAC4321D2B3C7600EA7641 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC4421D2B3C7600EA7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC44B1D2B3C7600EA7641 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16DAC44D1D2B3C7600EA7641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DAC4561D2B3C7600EA7641 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16DAC4481D2B3C7600EA7641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16DAC42C1D2B3C7600EA7641 /* 数字的滚动显示 */;
+			targetProxy = 16DAC4471D2B3C7600EA7641 /* PBXContainerItemProxy */;
+		};
+		16DAC4531D2B3C7600EA7641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16DAC42C1D2B3C7600EA7641 /* 数字的滚动显示 */;
+			targetProxy = 16DAC4521D2B3C7600EA7641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16DAC4391D2B3C7600EA7641 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16DAC43A1D2B3C7600EA7641 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16DAC43E1D2B3C7600EA7641 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16DAC43F1D2B3C7600EA7641 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16DAC4581D2B3C7600EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16DAC4591D2B3C7600EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16DAC45B1D2B3C7600EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "数字的滚动显示/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16DAC45C1D2B3C7600EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "数字的滚动显示/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16DAC45E1D2B3C7600EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "数字的滚动显示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/数字的滚动显示.app/数字的滚动显示";
+			};
+			name = Debug;
+		};
+		16DAC45F1D2B3C7600EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "数字的滚动显示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/数字的滚动显示.app/数字的滚动显示";
+			};
+			name = Release;
+		};
+		16DAC4611D2B3C7600EA7641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "数字的滚动显示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "数字的滚动显示";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		16DAC4621D2B3C7600EA7641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "数字的滚动显示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "数字的滚动显示";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16DAC4281D2B3C7600EA7641 /* Build configuration list for PBXProject "数字的滚动显示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC4581D2B3C7600EA7641 /* Debug */,
+				16DAC4591D2B3C7600EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16DAC45A1D2B3C7600EA7641 /* Build configuration list for PBXNativeTarget "数字的滚动显示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC45B1D2B3C7600EA7641 /* Debug */,
+				16DAC45C1D2B3C7600EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16DAC45D1D2B3C7600EA7641 /* Build configuration list for PBXNativeTarget "数字的滚动显示Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC45E1D2B3C7600EA7641 /* Debug */,
+				16DAC45F1D2B3C7600EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16DAC4601D2B3C7600EA7641 /* Build configuration list for PBXNativeTarget "数字的滚动显示UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16DAC4611D2B3C7600EA7641 /* Debug */,
+				16DAC4621D2B3C7600EA7641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16DAC4251D2B3C7600EA7641 /* Project object */;
+}
